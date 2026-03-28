@@ -11,6 +11,8 @@ public class Birb : MonoBehaviour
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
 
+    public bool IsDragging { get; private set; }
+
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -27,6 +29,7 @@ public class Birb : MonoBehaviour
     void OnMouseDown()
     {
         _sr.color = Color.red;
+        IsDragging = true;
     }
 
     void OnMouseUp()
@@ -39,6 +42,7 @@ public class Birb : MonoBehaviour
         _rb.AddForce(direction * _launchForce);
 
         _sr.color = Color.white;
+        IsDragging = false;
     }
 
     void OnMouseDrag()

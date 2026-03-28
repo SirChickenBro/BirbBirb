@@ -231,4 +231,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Birb
   _launchForce: 1000
-  _maxDrag: 2
+  _maxDrag: 3
