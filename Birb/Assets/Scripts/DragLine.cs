@@ -13,7 +13,7 @@ public class DragLine : MonoBehaviour
         _lr = GetComponent<LineRenderer>();
         _bird = FindObjectOfType<Birb>();
         
-        Vector3 lineZeroPosition = new Vector3(
+        Vector3 lineZeroPosition = new(
             _bird.transform.position.x,
             _bird.transform.position.y,
             -0.1f);
