@@ -40,6 +40,9 @@ public class Birb : MonoBehaviour
         _rb.isKinematic = false;
         _rb.AddForce(direction * _launchForce);
 
+        var audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
+        
         _sr.color = Color.white;
         IsDragging = false;
     }
