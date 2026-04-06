@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class LevelController : MonoBehaviour
 {
     private Monster[] _monsters;
-    [SerializeField] string _nextLevelName;
 
     void OnEnable()
     {
@@ -31,7 +30,6 @@ public class LevelController : MonoBehaviour
     }
     void GoToNextLevel()
     {
-        Debug.Log("Go to level " + _nextLevelName);
-        SceneManager.LoadScene(_nextLevelName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

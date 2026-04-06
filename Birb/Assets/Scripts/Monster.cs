@@ -52,11 +52,15 @@ public class Monster : MonoBehaviour
           if (_hasDied)
                 return false;
          
-          Birb bird = collision.gameObject.GetComponent<Birb>();
-          if (bird != null)
+        Birb bird = collision.gameObject.GetComponent<Birb>();
+        if (bird != null)
                 return true;
 
-          if (collision.contacts[0].normal.y < -0.5)
+        Helios helios = collision.gameObject.GetComponent<Helios>();
+        if (helios != null)
+            return true;
+
+        if (collision.contacts[0].normal.y < -0.5)
                 return true;
 
         return false;
