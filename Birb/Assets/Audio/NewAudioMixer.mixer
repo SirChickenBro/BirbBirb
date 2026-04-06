@@ -76,7 +76,17 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: c139780ee7bc7a44397f75cb33d9fa30
+    name: CrateVolume
+  - guid: 2bf425d70ce951942bb6ef04e6518c17
+    name: MasterVolume
+  - guid: 133b6fbf03edc314cb78f7f4488afa25
+    name: MonsterVolume
+  - guid: f0b81fd4365d40d49837d36ba55f989f
+    name: MusicVolume
+  - guid: 373e06a8ffd42fd44a8485db6b045cb0
+    name: PlayerVolume
   m_AudioMixerGroupViews:
   - guids:
     - 113cad8febe93194db8858d4dcee4e33
@@ -135,8 +145,10 @@ AudioMixerSnapshotController:
   m_SnapshotID: 4e45eab776c4405449b9cb38fade2d67
   m_FloatValues:
     4280fd503a606a64b9a83686a53c531c: 0
-    c139780ee7bc7a44397f75cb33d9fa30: -10.973566
-    133b6fbf03edc314cb78f7f4488afa25: 4.722419
+    f0b81fd4365d40d49837d36ba55f989f: -5.0891666
+    2bf425d70ce951942bb6ef04e6518c17: 0.12981704
+    c139780ee7bc7a44397f75cb33d9fa30: -13.63727
+    133b6fbf03edc314cb78f7f4488afa25: 13.341332
   m_TransitionOverrides: {}
 --- !u!243 &1125164181853596084
 AudioMixerGroupController:

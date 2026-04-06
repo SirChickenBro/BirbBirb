@@ -155,7 +155,7 @@ AudioSource:
   m_GameObject: {fileID: 162522737}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7020137805544683119, guid: 265325b2bfe5cfb4eb3ba227dca1e194, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4b5eab7669023ca4aba1c7911908bc1a, type: 3}
   m_PlayOnAwake: 1
@@ -1327,6 +1327,66 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 716559457612571816, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 716559457612571816, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317820859489721473, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317820859489721473, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250528902636034257, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250528902636034257, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250528902636034257, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946383198488743533, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946383198488743533, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946383198488743533, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042132531281383013, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042132531281383013, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047956644575726583, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047956644575726583, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047956644575726583, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6500069251954622168, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1405,6 +1465,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6500069251954622168, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646484875218359848, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646484875218359848, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646484875218359848, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697316717180428232, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697316717180428232, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8969204708810633756, guid: b259dde60138bb0458b3ee86f89d8f50, type: 3}
